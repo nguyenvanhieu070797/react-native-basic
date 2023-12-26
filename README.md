@@ -16,3 +16,7 @@ Create new project
 		- react-devtools
 	3. Package expo
 		- expo install expo-linear-gradient
+
+1. First list item
+   - First nested list item
+     - Second nested list item

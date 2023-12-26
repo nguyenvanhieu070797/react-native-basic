@@ -1,22 +1,19 @@
 # react-native-basic
 
-Environment
-	1. nvm
-	2. chocolatey: https://chocolatey.org/
-	3. Java SE Development Kit (JDK): https://openjdk.org/projects/jdk/11/
+1. Environment
+   - nvm
+   - chocolatey: https://chocolatey.org/
+   - Java SE Development Kit (JDK): https://openjdk.org/projects/jdk/11/
 
-Create new project
-	1. Install
-		- npm install -g expo-cli
-		- expo init tester
-		- cd tester
-		- npm start # you can also use: expo start
-	2. Debug
-		- npm install -g react-devtools 
-		- react-devtools
-	3. Package expo
-		- expo install expo-linear-gradient
+2. Environment
+   - Install
+     - npm install -g expo-cli
+     - expo init tester
+     - cd tester
+     - npm start # you can also use: expo start
+   - Debug
+     - npm install -g react-devtools
+     - react-devtools
+   - Package expo
+     - expo install expo-linear-gradient
 
-1. First list item
-   - First nested list item
-     - Second nested list item

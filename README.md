@@ -1,5 +1,6 @@
 # react-native-basic
 
+
 1. Environment
    - nvm
    - chocolatey: https://chocolatey.org/
@@ -16,4 +17,8 @@
      - react-devtools
    - Package expo
      - expo install expo-linear-gradient
+     - expo install vector-icons
+     - expo install expo-font
+     - expo install expo-app-loading
+     - expo install expo-splash-screen
 

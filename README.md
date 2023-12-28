@@ -1,15 +1,16 @@
 # react-native-basic
 
-
 1. Environment
-   - nvm
+   - nvm: Node 16.13.2 LTS
    - chocolatey: https://chocolatey.org/
    - Java SE Development Kit (JDK): https://openjdk.org/projects/jdk/11/
 
 2. Environment
    - Install
+     - npm install expo@44
      - npm install -g expo-cli
      - expo init tester
+     - expo update 47.0.0
      - cd tester
      - npm start # you can also use: expo start
    - Debug

@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, Image, StyleSheet, Dimensions} from 'react-native';
 import Title from '../components/ui/Title';
 import Colors from '../constants/colors';
 import PrimaryButton from '../components/ui/PrimaryButton';
@@ -13,13 +12,15 @@ function GameOverScreen ({roundsNumber, userNumber, onStartNewGame}) {
             </View>
             <Text style={styles.sunmaryText}>
                 Your phone needed <Text style={styles.hightlight}>{roundsNumber}</Text> rounds to guess the number <Text style={styles.hightlight}>{userNumber}</Text>.
-            </Text>    
+            </Text>
             <PrimaryButton onPress={onStartNewGame}>Start New Game</PrimaryButton>
         </View>
     )
 }
 
 export default GameOverScreen;
+
+const deviceWidths = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
     rootContainer: {
@@ -30,9 +31,9 @@ const styles = StyleSheet.create({
     },
 
     imageContainer: {
-        width: 300,
-        height: 300,
-        borderRadius: 150,
+        width: deviceWidths < 300 ? 150 : 300,
+        height: deviceWidths < 300 ? 150 : 300,
+        borderRadius: deviceWidths < 300 ? 75 : 150,
         borderWidth: 3,
         borderColor: Colors.primary800,
         overflow: 'hidden',

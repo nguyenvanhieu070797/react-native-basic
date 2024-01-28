@@ -1,12 +1,13 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { MEALS } from '../data/dummy-data'
 
+function MealsOverviewScreen ({route}) {
+   const cateId = route.params?.categoryId || "";
 
-function MealsOverviewScreen () {
     return (
         <View style={styles.container}>
             <Text>
-                Meals Overview Screen
+                Meals Overview Screen - {cateId}
             </Text>
         </View>
     );

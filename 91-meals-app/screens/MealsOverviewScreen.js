@@ -6,7 +6,7 @@ function MealsOverviewScreen ({route}) {
    const cateId = route.params?.categoryId || "";
 
    const displayedMeals = MEALS.filter((mealItem) => {
-       return mealItem.categoryIds.indexOf(catId) >= 0;
+       return mealItem.categoryIds.indexOf(cateId) >= 0;
    });
 
    console.log({displayedMeals});

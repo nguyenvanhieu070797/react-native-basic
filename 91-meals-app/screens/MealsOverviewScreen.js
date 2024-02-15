@@ -14,7 +14,7 @@ function MealsOverviewScreen ({route, navigation}) {
         const categoryTitle = CATEGORIES.find((category) => category.id === cateId).title;
         navigation.setOptions({
             title: categoryTitle,
-            headerBackTitle: "Back",
+            headerBackTitle: "All Categories",
         })
     }, [cateId, navigation]);
 

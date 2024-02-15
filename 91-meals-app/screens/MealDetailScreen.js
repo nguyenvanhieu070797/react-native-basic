@@ -12,13 +12,15 @@ function MealDetailScreen ({route, navigation}) {
 
     const selectedMeal = MEALS.find(meal => meal.id === mealId);
 
+    console.log({selectedMeal});
+
     function headerButtonPressHandler() {
         console.log("pressed!!");
     }
 
     useLayoutEffect(() => {
         navigation.setOptions({
-            title: "Meal detail screen",
+            title: "About the Meal",
             headerBackTitle: "Back",
             headerRight: () => {
                 return <IconButton

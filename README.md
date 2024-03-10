@@ -17,6 +17,7 @@
    - Debug
      - npm install -g react-devtools
      - react-devtools
+     - npm install @reduxjs/toolkit react-redux // tool redux
    - Package expo
      - expo install expo-linear-gradient
      - expo install vector-icons

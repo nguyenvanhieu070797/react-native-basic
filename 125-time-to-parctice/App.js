@@ -40,8 +40,8 @@ function ExpensesOverview() {
             })}
         >
             <BottomTabs.Screen
-                name="AllExpenses"
-                component={AllExpenses}
+                name="RecentExpenses"
+                component={RecentExpenses}
                 options={{
                     title: "Recent Expenses",
                     tabBarLabel: "Recent",
@@ -55,8 +55,8 @@ function ExpensesOverview() {
                 }}
             />
             <BottomTabs.Screen
-                name="RecentExpenses"
-                component={RecentExpenses}
+                name="AllExpenses"
+                component={AllExpenses}
                 options={{
                     title: "All Expenses",
                     tabBarLabel: "All Expenses",

@@ -30,4 +30,6 @@
      - expo install react-native-gesture-handler react-native-reanimated
      - expo install @react-navigation/bottom-tabs
      - expo install @expo/vector-icons
+     - expo install @react-native-async-storage/async-storage
+     - expo install @react-navigation/native
 

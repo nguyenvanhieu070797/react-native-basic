@@ -32,4 +32,8 @@
      - expo install @expo/vector-icons
      - expo install @react-native-async-storage/async-storage
      - expo install @react-navigation/native
+     - expo install expo-camera
+     - expo install expo-image-picker
+     - expo install expo-location
+     - expo install react-native-maps
 
